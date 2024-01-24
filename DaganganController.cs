@@ -31,7 +31,6 @@ namespace atk
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
-            //tes
             dagang.RemoveAt(id);
         }
 
